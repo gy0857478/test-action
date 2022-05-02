@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: debianmaster/action-k3s@master
+      - uses: debianmaster/actions-k3s@master
         id: k3s
         with:
           version: 'v1.18.2-k3s1'
